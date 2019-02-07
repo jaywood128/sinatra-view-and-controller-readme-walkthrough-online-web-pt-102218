@@ -12,6 +12,7 @@ class App < Sinatra::Base
   end
 
   get '/friends' do
+    binding.pry
     # Write your code here!
 
   end
